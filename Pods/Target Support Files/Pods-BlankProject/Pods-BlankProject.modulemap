@@ -1,0 +1,6 @@
+framework module Pods_BlankProject {
+  umbrella header "Pods-BlankProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

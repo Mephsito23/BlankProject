@@ -1,0 +1,31 @@
+{
+  "name": "XLPhotoBrowser",
+  "version": "0.0.1",
+  "summary": "A short description of XLPhotoBrowser.",
+  "description": "图片选择器",
+  "homepage": "/Users/mac/Desktop/gittub/BlankProject",
+  "license": "MIT",
+  "authors": {
+    "mephsito": "xiezefu@outlook.com"
+  },
+  "source": {
+    "git": "Users/mac/Desktop/gittub/BlankProject",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "XLPhotoBrowser/Vender/**/*.{h,m}",
+    "XLPhotoBrowser/*.{h,m}"
+  ],
+  "resources": "*.png",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 3.7.6 "
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

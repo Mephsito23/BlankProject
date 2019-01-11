@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  BlankProject
+//
+//  Created by mac on 17/3/6.
+//  Copyright © 2017年 Mephsito. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+///------------
+/// 关联文件
+///------------
+
+
+#define LOG_LEVEL_DEF ddLogLevel
+#import "CocoaLumberjack/CocoaLumberjack.h"
+
+///------------
+/// AppDelegate
+///------------
+#import "AppDelegate.h"
+#define BPSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#import "common.h"
+#import "constant.h"
+#import "contastNam.h"
+#import "Instrument.h"
+#import "interface.h"
+
+
+#ifdef DEBUG
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
+#else
+static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif  /* DEBUG */
+
+
+#endif /* PrefixHeader_pch */
