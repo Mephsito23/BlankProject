@@ -23,8 +23,8 @@
      [super initialize];
     
     self.oneVM = [[HomeVM alloc]initWithServices:self.services params:@{@"title":@"首页"}];
-    self.twoVM = [[TwoVM alloc]initWithServices:self.services params:@{@"title":@"报价"}];
-    self.threeVM = [[ThreeVM alloc]initWithServices:self.services params:@{@"title":@"交易"}];
+    self.twoVM = [[TwoVM alloc]initWithServices:self.services params:@{@"title":@"图片"}];
+    self.threeVM = [[ThreeVM alloc]initWithServices:self.services params:@{@"title":@"我的"}];
 
 }
 

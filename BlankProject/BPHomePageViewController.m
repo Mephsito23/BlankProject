@@ -49,7 +49,7 @@
     UINavigationController *TwoNavigationController = ({
         TwoVC *TwoViewController = [[TwoVC alloc] initWithViewModel:self.viewModel.twoVM];
         
-        TwoViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"报价"
+        TwoViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"图片"
                                                                      image:[UIImage imageNamed:@"jy_hangqing"]
                                                              selectedImage:[UIImage imageNamed:@"jy_hangqing_cheng"]];
         
@@ -61,7 +61,7 @@
     UINavigationController *ThreeNavigationController = ({
         ThreeVC *threeViewController = [[ThreeVC alloc] initWithViewModel:self.viewModel.threeVM];
 
-        threeViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"商品"
+        threeViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"我的"
                                                                      image:[UIImage imageNamed:@"jy_shangpin_hui"]
                                                              selectedImage:[UIImage imageNamed:@"jy_shangpin"]];
         
