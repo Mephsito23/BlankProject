@@ -85,6 +85,9 @@
 		04F4ADE021E9C5F9007BDC06 /* PresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADDF21E9C5F9007BDC06 /* PresentVC.m */; };
 		04F4ADE321E9C60D007BDC06 /* PushVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADE221E9C60D007BDC06 /* PushVM.m */; };
 		04F4ADE621E9C617007BDC06 /* PresentVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADE521E9C617007BDC06 /* PresentVM.m */; };
+		04F4ADEA21E9D2BC007BDC06 /* PushMainV.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADE921E9D2BC007BDC06 /* PushMainV.m */; };
+		04F4ADED21E9D6D4007BDC06 /* GetRandomImageClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADEC21E9D6D4007BDC06 /* GetRandomImageClient.m */; };
+		04F4ADF021E9E4FF007BDC06 /* ImageBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADEF21E9E4FF007BDC06 /* ImageBean.m */; };
 		59A2CA8944190C704FEC49ED /* Pods_BlankProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46E91D75E568C5203B67E /* Pods_BlankProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -271,6 +274,12 @@
 		04F4ADE221E9C60D007BDC06 /* PushVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushVM.m; sourceTree = "<group>"; };
 		04F4ADE421E9C616007BDC06 /* PresentVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentVM.h; sourceTree = "<group>"; };
 		04F4ADE521E9C617007BDC06 /* PresentVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentVM.m; sourceTree = "<group>"; };
+		04F4ADE821E9D2BC007BDC06 /* PushMainV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushMainV.h; sourceTree = "<group>"; };
+		04F4ADE921E9D2BC007BDC06 /* PushMainV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushMainV.m; sourceTree = "<group>"; };
+		04F4ADEB21E9D6D4007BDC06 /* GetRandomImageClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetRandomImageClient.h; sourceTree = "<group>"; };
+		04F4ADEC21E9D6D4007BDC06 /* GetRandomImageClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetRandomImageClient.m; sourceTree = "<group>"; };
+		04F4ADEE21E9E4FF007BDC06 /* ImageBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBean.h; sourceTree = "<group>"; };
+		04F4ADEF21E9E4FF007BDC06 /* ImageBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBean.m; sourceTree = "<group>"; };
 		43D7F75AFB9478CD6DABCA10 /* Pods-BlankProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlankProject/Pods-BlankProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8BACF92EDE4E616EB6D8946E /* Pods-BlankProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlankProject/Pods-BlankProject.release.xcconfig"; sourceTree = "<group>"; };
 		E7F46E91D75E568C5203B67E /* Pods_BlankProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlankProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -690,6 +699,8 @@
 		04F06AC421E89B6D006B47FE /* Get */ = {
 			isa = PBXGroup;
 			children = (
+				04F4ADEB21E9D6D4007BDC06 /* GetRandomImageClient.h */,
+				04F4ADEC21E9D6D4007BDC06 /* GetRandomImageClient.m */,
 			);
 			name = Get;
 			sourceTree = "<group>";
@@ -704,6 +715,8 @@
 		04F06AC621E89B79006B47FE /* Bean */ = {
 			isa = PBXGroup;
 			children = (
+				04F4ADEE21E9E4FF007BDC06 /* ImageBean.h */,
+				04F4ADEF21E9E4FF007BDC06 /* ImageBean.m */,
 			);
 			name = Bean;
 			sourceTree = "<group>";
@@ -768,6 +781,7 @@
 		04F4ADD521E9C4DF007BDC06 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				04F4ADE721E9D2A5007BDC06 /* SubView */,
 				04C6622621E8CA2900D046A9 /* HomeVC.h */,
 				04C6622721E8CA2900D046A9 /* HomeVC.m */,
 				04F4ADDB21E9C5EC007BDC06 /* PushVC.h */,
@@ -825,6 +839,15 @@
 				04C6623021E8CA5700D046A9 /* ThreeVM.m */,
 			);
 			name = Three;
+			sourceTree = "<group>";
+		};
+		04F4ADE721E9D2A5007BDC06 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				04F4ADE821E9D2BC007BDC06 /* PushMainV.h */,
+				04F4ADE921E9D2BC007BDC06 /* PushMainV.m */,
+			);
+			name = SubView;
 			sourceTree = "<group>";
 		};
 		4877289B5AA9176578280A1F /* Frameworks */ = {
@@ -1060,6 +1083,7 @@
 				04C6653121E8FFC500D046A9 /* BPTabBarViewModel.m in Sources */,
 				04C6653921E8FFC500D046A9 /* NSObject+SXRuntime.m in Sources */,
 				049787881E6D131800E0705E /* AppDelegate.m in Sources */,
+				04F4ADEA21E9D2BC007BDC06 /* PushMainV.m in Sources */,
 				04C6652821E8FFC500D046A9 /* YUBaseTabBar.m in Sources */,
 				04C6654721E8FFC500D046A9 /* LYTextView.m in Sources */,
 				04C6653721E8FFC500D046A9 /* UINavigation+SXFixSpace.m in Sources */,
@@ -1106,6 +1130,7 @@
 				04C6622E21E8CA4800D046A9 /* TwoVC.m in Sources */,
 				04C6622521E8CA1700D046A9 /* HomeVM.m in Sources */,
 				04C6653B21E8FFC500D046A9 /* NSString+EmailAdditions.m in Sources */,
+				04F4ADED21E9D6D4007BDC06 /* GetRandomImageClient.m in Sources */,
 				04F06AE921E89D06006B47FE /* NSArray+ImageStrToImageArr.m in Sources */,
 				04C6654521E8FFC500D046A9 /* XTPopView.m in Sources */,
 				04C6653D21E8FFC500D046A9 /* UINavigationBar+NavigationBarBackground.m in Sources */,
@@ -1126,6 +1151,7 @@
 				04F06AE821E89D06006B47FE /* NSMutableArray+JsonArray.m in Sources */,
 				04C6653A21E8FFC500D046A9 /* UIView+Log.m in Sources */,
 				04C6653E21E8FFC500D046A9 /* UIImage+HDExtension.m in Sources */,
+				04F4ADF021E9E4FF007BDC06 /* ImageBean.m in Sources */,
 				04C6653421E8FFC500D046A9 /* BaseServiceModel.m in Sources */,
 				04C6653221E8FFC500D046A9 /* BaseClientModel.m in Sources */,
 				04C6622B21E8CA3B00D046A9 /* TwoVM.m in Sources */,

@@ -32,6 +32,7 @@
 #import "UIImage+HDExtension.h"
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <KafkaRefresh/KafkaRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 
 ///------

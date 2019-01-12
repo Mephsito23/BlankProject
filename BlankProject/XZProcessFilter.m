@@ -26,7 +26,10 @@
 
 ///统一添加头字段
 - (NSDictionary *)requestHeaderValue {
-    return @{};
+    
+    NSDictionary *dict = @{@"Accept-Version" : @"v1",
+                           @"Authorization" : @"Client-ID 95ec55ac16c55d6f9146eed5c9ec00d97ae4f111f5d5b5efe1060ad857dddc6a"};
+    return dict;
 }
 
 

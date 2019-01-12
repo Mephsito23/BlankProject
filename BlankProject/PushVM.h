@@ -8,6 +8,11 @@
 
 #import "BaseViewModel.h"
 
+@class ImageBean;
 @interface PushVM : BaseViewModel
+
+@property (nonatomic, strong, readonly) ImageBean *model;
+
+@property (nonatomic, strong) RACCommand *getRandomImageCommon;
 
 @end

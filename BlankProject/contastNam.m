@@ -50,11 +50,13 @@ const CGFloat kAfterTime = 0.8f;
 /// URL
 ///----
 
-NSString *const BASEURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
-NSString *const VICEBASEURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
-
-NSString *const kDebugBaseURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
-NSString *const kDebugViceBaseURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
+#ifdef DEBUG
+NSString *const kDebugBaseURL = @"https://api.unsplash.com";
+NSString *const kDebugViceBaseURL = @"https://api.unsplash.com";
+#else
+NSString *const BASEURL = @"https://api.unsplash.com";
+NSString *const VICEBASEURL = @"https://api.unsplash.com";
+#endif
 
 
 ///----

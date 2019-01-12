@@ -7,8 +7,8 @@
 //
 
 #import "HomeVM.h"
-#import "TwoVM.h"
-#import "ThreeVM.h"
+#import "PushVM.h"
+#import "PresentVM.h"
 
 
 @interface HomeVM ()
@@ -28,7 +28,7 @@
         
         /// 在dict中加入需要传递到下个界面的值,标题默认key为title, 不需要传值可以传nil
         NSDictionary *dict = @{@"title" : @"push控制器"};
-        TwoVM *viewModel = [[TwoVM alloc]initWithServices:self.services params:dict];
+        PushVM *viewModel = [[PushVM alloc]initWithServices:self.services params:dict];
         [self.services pushViewModel:viewModel animated:YES];
 
         return [RACSignal empty];
@@ -52,7 +52,7 @@
             @strongify(self);
             
             NSDictionary *dict = @{@"title" : @"present控制器"};
-            ThreeVM *viewModel = [[ThreeVM alloc]initWithServices:self.services params:dict];
+            PresentVM *viewModel = [[PresentVM alloc]initWithServices:self.services params:dict];
             [self.services presentViewModel:viewModel animated:YES completion:nil];
             
             return [RACSignal empty];
