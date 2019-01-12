@@ -39,6 +39,7 @@
     
     self.changeBtn.rac_command = self.viewModel.getRandomImageCommon;
     
+    ///监听模型变化设置数据
     @weakify(self);
     [[RACObserve(viewModel, model)ignore:nil]
      subscribeNext:^(ImageBean *model) {
@@ -89,9 +90,7 @@
     .topSpaceToView(self.changeBtn, 20)
     .heightIs(300)
     .widthEqualToHeight();
-    
-    
-    
+
 }
 
 #pragma mark  - getter and setter
