@@ -24,8 +24,12 @@ const CGFloat XZLittleSpace = 5;
 const CGFloat statusTable = 5;
 const CGFloat kTagMargin = 3.0f;
 
-//kBackageAlpaValue
+//遮罩背景透明度
 const CGFloat kBackageAlpaValue = 0.6f;
+
+//返回配置
+NSString *const BackBtnImageName = @"whiteBack";
+NSString *const BackBtnImageTitle = @"返回";
 
 ///nav字体
 const CGFloat NavTitleFont = 19;
@@ -40,12 +44,6 @@ const CGFloat kDamping = 1.0f;
 
 const CGFloat kAfterTime = 0.8f;
 
-///商品详情左边距
-const CGFloat kGoodsInfoLeftSpace = 22.0f;
-const CGFloat kGoodsInfoContentFont = 13.0f;
-
-NSString *const BackBtnImageName = @"txdd_fanhui";
-NSString *const BackBtnImageTitle = @"";
 
 
 ///----
@@ -59,29 +57,17 @@ NSString *const kDebugBaseURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
 NSString *const kDebugViceBaseURL = @"https://oilb2b.cgsgame.com/zhuge-oilb2b-app";
 
 
-
 ///----
 /// Key
 ///----
-NSString *const Authodes=@"Authodes";
-NSString *const TableName=@"userInfoTable";
-NSString *const UserInfoKey=@"userInfo";
-NSString *const StoreName=@"StoreName.db";
+NSString *const Authodes = @"Authodes";
+NSString *const TableName = @"userInfoTable";
+NSString *const UserInfoKey = @"userInfo";
+NSString *const StoreName = @"StoreName.db";
+
+///错误提示 message
 NSString *const kERRORTIPMESSAGE = @"网络连接错误,请稍后再试";
 NSString *const kMessageTable = @"kMessageTable";
-
-NSString *const UMShareKey = @"5ba203a3b465f5397c00004e";
-NSString *const kAMapKey = @"564adc15182191b42b501010f05427a0";
-NSString *const kPermissionTipStr = @"您还没有权限进入该模块";
-
-NSString *const kBuglyAppID = @"bcb753bec7";
-
-
-/**
- note : 如果导入了AliyunEmasServices-Info.plist文件,则没有使用到该key与Secret
- */
-NSString *const kAlichoudPushKey = @"25248395";
-NSString *const kAlichoudPushAppSecret = @"a9c03f70b64619bb130f74bc6e5dd873";
 
 
 ///---
@@ -91,12 +77,6 @@ NSString *const LoginAgaenNTF=@"LoginAgaenNTF";
 NSString *const HttpErrorNTF=@"HttpErrorNTF";
 NSString *const kDELETETABBARITEMNTF=@"kDELETETABBARITEMNTF";
 NSString *const LOGINAGAINSTNTF = @"LOGINAGAINSTNTF";
-NSString *const kGoodsComparePriceNTF = @"kGoodsComparePriceNTF";
-NSString *const kJumpGoodsNTF = @"kJumpGoodsNTF";
-NSString *const kTouristLoginNTF = @"kTouristLoginNTF";
-
-NSString *const kPriceWithDomesticNTF = @"kPriceWithDomesticNTF";
-NSString *const kChangeCarInfoNTF = @"kChangeCarInfoNTF";
 
 
 ///-------

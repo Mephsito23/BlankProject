@@ -39,6 +39,11 @@
     return @{
              @"BaseTableViewViewModel" : @"MRCTableViewController",
              @"BPHomepageViewModel" : @"BPHomePageViewController",
+             @"HomeVM" : @"HomeVC",
+             @"TwoVM" : @"TwoVC",
+             @"ThreeVM" : @"ThreeVC",
+             @"PushVM" : @"PushVC",
+             @"PresentVM" : @"PresentVC",
              };
     
 }

@@ -10,4 +10,7 @@
 
 @interface HomeVM : BaseViewModel
 
+@property (nonatomic, strong) RACCommand *pushCommon;
+@property (nonatomic, strong) RACCommand *presentCommon;
+
 @end

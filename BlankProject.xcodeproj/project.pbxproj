@@ -81,6 +81,10 @@
 		04F06AF421E89D1F006B47FE /* singlon.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AF121E89D1E006B47FE /* singlon.m */; };
 		04F06AF521E89D1F006B47FE /* ToolFounction.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AF221E89D1E006B47FE /* ToolFounction.m */; };
 		04F06AF621E89D1F006B47FE /* MRCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F06AF321E89D1F006B47FE /* MRCRouter.m */; };
+		04F4ADDD21E9C5EC007BDC06 /* PushVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADDC21E9C5EC007BDC06 /* PushVC.m */; };
+		04F4ADE021E9C5F9007BDC06 /* PresentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADDF21E9C5F9007BDC06 /* PresentVC.m */; };
+		04F4ADE321E9C60D007BDC06 /* PushVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADE221E9C60D007BDC06 /* PushVM.m */; };
+		04F4ADE621E9C617007BDC06 /* PresentVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4ADE521E9C617007BDC06 /* PresentVM.m */; };
 		59A2CA8944190C704FEC49ED /* Pods_BlankProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F46E91D75E568C5203B67E /* Pods_BlankProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -259,6 +263,14 @@
 		04F06AF121E89D1E006B47FE /* singlon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singlon.m; sourceTree = "<group>"; };
 		04F06AF221E89D1E006B47FE /* ToolFounction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolFounction.m; sourceTree = "<group>"; };
 		04F06AF321E89D1F006B47FE /* MRCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCRouter.m; sourceTree = "<group>"; };
+		04F4ADDB21E9C5EC007BDC06 /* PushVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushVC.h; sourceTree = "<group>"; };
+		04F4ADDC21E9C5EC007BDC06 /* PushVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushVC.m; sourceTree = "<group>"; };
+		04F4ADDE21E9C5F9007BDC06 /* PresentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentVC.h; sourceTree = "<group>"; };
+		04F4ADDF21E9C5F9007BDC06 /* PresentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentVC.m; sourceTree = "<group>"; };
+		04F4ADE121E9C60D007BDC06 /* PushVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushVM.h; sourceTree = "<group>"; };
+		04F4ADE221E9C60D007BDC06 /* PushVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushVM.m; sourceTree = "<group>"; };
+		04F4ADE421E9C616007BDC06 /* PresentVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentVM.h; sourceTree = "<group>"; };
+		04F4ADE521E9C617007BDC06 /* PresentVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentVM.m; sourceTree = "<group>"; };
 		43D7F75AFB9478CD6DABCA10 /* Pods-BlankProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlankProject/Pods-BlankProject.debug.xcconfig"; sourceTree = "<group>"; };
 		8BACF92EDE4E616EB6D8946E /* Pods-BlankProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlankProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlankProject/Pods-BlankProject.release.xcconfig"; sourceTree = "<group>"; };
 		E7F46E91D75E568C5203B67E /* Pods_BlankProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlankProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,9 +353,9 @@
 		049787821E6D131800E0705E /* BlankProject */ = {
 			isa = PBXGroup;
 			children = (
-				04C664BC21E8FFC400D046A9 /* MVVMBase */,
 				04C6621621E89DF100D046A9 /* App */,
 				04149DA821E89B1E0014F017 /* AppTool */,
+				04C664BC21E8FFC400D046A9 /* MVVMBase */,
 				049787831E6D131800E0705E /* Supporting Files */,
 			);
 			path = BlankProject;
@@ -393,14 +405,11 @@
 		04C6621521E89DD800D046A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				04F4ADDA21E9C521007BDC06 /* Three */,
+				04F4ADD921E9C518007BDC06 /* Two */,
+				04F4ADD821E9C511007BDC06 /* Home */,
 				04C6621A21E89F3000D046A9 /* BPHomepageViewModel.h */,
 				04C6621B21E89F3000D046A9 /* BPHomepageViewModel.m */,
-				04C6622321E8CA1700D046A9 /* HomeVM.h */,
-				04C6622421E8CA1700D046A9 /* HomeVM.m */,
-				04C6622921E8CA3B00D046A9 /* TwoVM.h */,
-				04C6622A21E8CA3B00D046A9 /* TwoVM.m */,
-				04C6622F21E8CA5700D046A9 /* ThreeVM.h */,
-				04C6623021E8CA5700D046A9 /* ThreeVM.m */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -747,16 +756,75 @@
 		04F06B8821E89D9D006B47FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04F4ADD721E9C507007BDC06 /* Three */,
+				04F4ADD621E9C4FF007BDC06 /* Two */,
+				04F4ADD521E9C4DF007BDC06 /* Home */,
 				04C6621D21E89F4800D046A9 /* BPHomePageViewController.h */,
 				04C6621E21E89F4900D046A9 /* BPHomePageViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04F4ADD521E9C4DF007BDC06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				04C6622621E8CA2900D046A9 /* HomeVC.h */,
 				04C6622721E8CA2900D046A9 /* HomeVC.m */,
+				04F4ADDB21E9C5EC007BDC06 /* PushVC.h */,
+				04F4ADDC21E9C5EC007BDC06 /* PushVC.m */,
+				04F4ADDE21E9C5F9007BDC06 /* PresentVC.h */,
+				04F4ADDF21E9C5F9007BDC06 /* PresentVC.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		04F4ADD621E9C4FF007BDC06 /* Two */ = {
+			isa = PBXGroup;
+			children = (
 				04C6622C21E8CA4800D046A9 /* TwoVC.h */,
 				04C6622D21E8CA4800D046A9 /* TwoVC.m */,
+			);
+			name = Two;
+			sourceTree = "<group>";
+		};
+		04F4ADD721E9C507007BDC06 /* Three */ = {
+			isa = PBXGroup;
+			children = (
 				04C6623221E8CA8600D046A9 /* ThreeVC.h */,
 				04C6623321E8CA8600D046A9 /* ThreeVC.m */,
 			);
-			name = View;
+			name = Three;
+			sourceTree = "<group>";
+		};
+		04F4ADD821E9C511007BDC06 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04C6622321E8CA1700D046A9 /* HomeVM.h */,
+				04C6622421E8CA1700D046A9 /* HomeVM.m */,
+				04F4ADE121E9C60D007BDC06 /* PushVM.h */,
+				04F4ADE221E9C60D007BDC06 /* PushVM.m */,
+				04F4ADE421E9C616007BDC06 /* PresentVM.h */,
+				04F4ADE521E9C617007BDC06 /* PresentVM.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		04F4ADD921E9C518007BDC06 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				04C6622921E8CA3B00D046A9 /* TwoVM.h */,
+				04C6622A21E8CA3B00D046A9 /* TwoVM.m */,
+			);
+			name = Two;
+			sourceTree = "<group>";
+		};
+		04F4ADDA21E9C521007BDC06 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				04C6622F21E8CA5700D046A9 /* ThreeVM.h */,
+				04C6623021E8CA5700D046A9 /* ThreeVM.m */,
+			);
+			name = Three;
 			sourceTree = "<group>";
 		};
 		4877289B5AA9176578280A1F /* Frameworks */ = {
@@ -1020,6 +1088,7 @@
 				049787BC1E6D2F7E00E0705E /* contastNam.m in Sources */,
 				04C6623821E8CC5400D046A9 /* HQLCustomFormatter.m in Sources */,
 				04C6652C21E8FFC500D046A9 /* MRCTableViewController.m in Sources */,
+				04F4ADE621E9C617007BDC06 /* PresentVM.m in Sources */,
 				04F06AE621E89D06006B47FE /* UIButton+UIControl_button.m in Sources */,
 				04C6652721E8FFC500D046A9 /* XZtabbarbutton.m in Sources */,
 				04C6654221E8FFC500D046A9 /* XHSegmentItem.m in Sources */,
@@ -1027,6 +1096,8 @@
 				04F06AD021E89BDC006B47FE /* RestfulRacsignHttpTool.m in Sources */,
 				04C6654421E8FFC500D046A9 /* XHSegmentViewController.m in Sources */,
 				04F06AE521E89D06006B47FE /* NSString+Extension.m in Sources */,
+				04F4ADE321E9C60D007BDC06 /* PushVM.m in Sources */,
+				04F4ADDD21E9C5EC007BDC06 /* PushVC.m in Sources */,
 				04C6623421E8CA8600D046A9 /* ThreeVC.m in Sources */,
 				04C6653321E8FFC500D046A9 /* BaseModel.m in Sources */,
 				04C6654621E8FFC500D046A9 /* ShowView.m in Sources */,
@@ -1042,6 +1113,7 @@
 				04C6653621E8FFC500D046A9 /* UINavigationController+SXFullScreen.m in Sources */,
 				04F06AEA21E89D06006B47FE /* NSString+PingYing.m in Sources */,
 				04C6654F21E8FFC500D046A9 /* RacsignHttpTool.m in Sources */,
+				04F4ADE021E9C5F9007BDC06 /* PresentVC.m in Sources */,
 				04C6654921E8FFC500D046A9 /* LCActionSheet.m in Sources */,
 				04C6652E21E8FFC500D046A9 /* MRCTabBarController.m in Sources */,
 				04F06AF421E89D1F006B47FE /* singlon.m in Sources */,

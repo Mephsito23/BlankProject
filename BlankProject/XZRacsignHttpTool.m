@@ -17,7 +17,7 @@ static void (^doNext)(id responseObject)=^(id responseObject){
     
     NSNumber *code = responseObject[@"code"];
     if([code isEqual:@(2)]) {
-        [XZNotificationCenter postNotificationName:kTouristLoginNTF object:nil];
+        
     }
 
 };
