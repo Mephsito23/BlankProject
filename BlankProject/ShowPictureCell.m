@@ -46,7 +46,7 @@
     [self.userIconV sd_setImageWithURL:[NSURL URLWithString:model.userProfileURL]];
     [self.iconV sd_setImageWithURL:[NSURL URLWithString:model.imageURL]];
     self.nameL.text = model.userName;
-    self.locationL.text = model.address;
+    self.locationL.text = model.address ?:@"暂无地址";
 }
 
 #pragma mark  -
