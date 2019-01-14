@@ -1,5 +1,5 @@
 //
-//  PictureModel.h
+//  PictureTwoModel.h
 //  BlankProject
 //
 //  Created by mac on 2019/1/14.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PictureModel : NSObject<BindViewModelProtocol>
+@interface PictureTwoModel : NSObject<BindViewModelProtocol>
 
 @property (nonatomic, copy) NSString *index;
 

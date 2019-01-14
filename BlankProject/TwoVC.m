@@ -12,7 +12,6 @@
 @interface TwoVC ()
 
 @property (nonatomic, strong) TwoVM *viewModel;
-
 @property (nonatomic, strong) UIButton *oneBtn;
 @property (nonatomic, strong) UIButton *twoBtn;
 
@@ -33,6 +32,12 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.leftBtn.hidden = YES;
+}
+
+- (void)bindViewModel {
+    
+    self.oneBtn.rac_command = self.viewModel.pushOneVcCommon;
+    self.twoBtn.rac_command = self.viewModel.pushTwoVcCommon;
 }
 
 - (void)layPageSubViews {

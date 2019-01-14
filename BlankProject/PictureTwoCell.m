@@ -1,26 +1,25 @@
 //
-//  PictureCell.m
+//  PictureTwoCell.m
 //  BlankProject
 //
 //  Created by mac on 2019/1/14.
 //  Copyright © 2019年 Mephsito. All rights reserved.
 //
 
-#import "PictureCell.h"
-#import "PictureModel.h"
+#import "PictureTwoCell.h"
+#import "PictureTwoModel.h"
 
 
-@interface PictureCell ()
+@interface PictureTwoCell ()
 
 @property (nonatomic, strong) UILabel *titleL;
-@property (nonatomic, strong) UILabel *nameL;
-@property (nonatomic, strong) UILabel *locationL;
+@property (nonatomic, strong) UILabel *indexL;
 @property (nonatomic, strong) UIImageView *iconV;
 @property (nonatomic, strong) UIView *lineV;
 
 @end
 
-@implementation PictureCell
+@implementation PictureTwoCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     
@@ -35,28 +34,28 @@
     return self;
 }
 
-#pragma mark  - 协议方法
+#pragma mark  - BindViewModelProtocol方法
 
-+ (CGFloat)tableView:(UITableView *)tableView rowHeightForObject:(PictureModel *)object {
-    return 120;
++ (CGFloat)tableView:(UITableView *)tableView rowHeightForObject:(id)object {
+    return 200;
 }
 
-- (void)cellBindModel:(PictureModel *)model {
-    self.nameL.text = [NSString stringWithFormat:@"index : %@", model.index];
+- (void)cellBindModel:(PictureTwoModel *)model {
+    self.indexL.text = [NSString stringWithFormat:@"index : %@", model.index];
 }
 
 #pragma mark  -
 
+
 - (void)creatSubView {
     
     [self.contentView addSubview:self.titleL];
-    [self.contentView addSubview:self.nameL];
-    [self.contentView addSubview:self.locationL];
+    [self.contentView addSubview:self.indexL];
     [self.contentView addSubview:self.iconV];
     [self.contentView addSubview:self.lineV];
     
-    self.iconV.image = [UIImage imageWithColor:ColorYellow];
-    
+    self.iconV.image = [UIImage imageWithColor:[UIColor flatGreenColor]];
+
     [self layoutPageSubViews];
 }
 
@@ -69,38 +68,38 @@
     .heightIs(20);
     [self.titleL setSingleLineAutoResizeWithMaxWidth:300];
     
-    self.nameL.sd_layout
+    self.indexL.sd_layout
     .leftSpaceToView(self.contentView, XZSpace)
     .topSpaceToView(self.titleL, XZLittleSpace)
     .heightIs(20);
-    [self.nameL setSingleLineAutoResizeWithMaxWidth:300];
-    
-    self.locationL.sd_layout
-    .leftSpaceToView(self.contentView, XZSpace)
-    .topSpaceToView(self.nameL, XZLittleSpace)
-    .heightIs(20);
-    [self.locationL setSingleLineAutoResizeWithMaxWidth:300];
-    
+    [self.indexL setSingleLineAutoResizeWithMaxWidth:300];
+
     self.iconV.sd_layout
     .leftSpaceToView(self.titleL, 30)
     .topEqualToView(self.titleL)
     .heightRatioToView(self.contentView, 0.8)
     .widthEqualToHeight();
+    
+    self.lineV.sd_layout
+    .leftEqualToView(self.contentView)
+    .rightEqualToView(self.contentView)
+    .bottomEqualToView(self.contentView)
+    .heightIs(1);
 }
 
 #pragma mark  - getter and setter
 
-LazyLoadLabel(titleL, @"第一种Cell", BaseTitleFont, ColorTitle)
-LazyLoadLabel(nameL, @"poorkane", BaseTitleFont, ColorTitle)
-LazyLoadLabel(locationL, @"Way out there", BaseTitleFont, ColorTitle)
-LazyLoadImageView(iconV, @"");
+LazyLoadLabel(titleL, @"第二种Cell", BaseTitleFont, ColorTitle)
+LazyLoadLabel(indexL, @"Index:", BaseTitleFont, ColorTitle)
+LazyLoadImageView(iconV, @"")
 
 - (UIView *)lineV{
     if (_lineV == nil) {
         _lineV = [UIView new];
-        _lineV.backgroundColor = ColorLine;
+        _lineV.backgroundColor = ColorLightLine;
     }
     return _lineV;
 }
+
 
 @end

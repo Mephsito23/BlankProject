@@ -20,6 +20,10 @@
 		04BA28B021EC398800E4563A /* ManyCellVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28AF21EC398800E4563A /* ManyCellVM.m */; };
 		04BA28B321EC39AB00E4563A /* RequestPageDataVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28B221EC39AB00E4563A /* RequestPageDataVM.m */; };
 		04BA28B621EC39BC00E4563A /* RequestPageDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28B521EC39BC00E4563A /* RequestPageDataVC.m */; };
+		04BA28B921EC3D4A00E4563A /* PictureTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28B821EC3D4A00E4563A /* PictureTwoCell.m */; };
+		04BA28BC21EC3D5800E4563A /* PictureThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28BB21EC3D5800E4563A /* PictureThreeCell.m */; };
+		04BA28BF21EC3D6700E4563A /* PictureFoureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28BE21EC3D6700E4563A /* PictureFoureCell.m */; };
+		04BA28C221EC3E8F00E4563A /* PictureTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA28C121EC3E8F00E4563A /* PictureTwoModel.m */; };
 		04C6621921E89EE700D046A9 /* AppDelegate+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6621721E89EE600D046A9 /* AppDelegate+Configure.m */; };
 		04C6621C21E89F3000D046A9 /* BPHomepageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6621B21E89F3000D046A9 /* BPHomepageViewModel.m */; };
 		04C6621F21E89F4900D046A9 /* BPHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C6621E21E89F4900D046A9 /* BPHomePageViewController.m */; };
@@ -146,6 +150,14 @@
 		04BA28B221EC39AB00E4563A /* RequestPageDataVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestPageDataVM.m; sourceTree = "<group>"; };
 		04BA28B421EC39BC00E4563A /* RequestPageDataVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestPageDataVC.h; sourceTree = "<group>"; };
 		04BA28B521EC39BC00E4563A /* RequestPageDataVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestPageDataVC.m; sourceTree = "<group>"; };
+		04BA28B721EC3D4A00E4563A /* PictureTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureTwoCell.h; sourceTree = "<group>"; };
+		04BA28B821EC3D4A00E4563A /* PictureTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureTwoCell.m; sourceTree = "<group>"; };
+		04BA28BA21EC3D5800E4563A /* PictureThreeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureThreeCell.h; sourceTree = "<group>"; };
+		04BA28BB21EC3D5800E4563A /* PictureThreeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureThreeCell.m; sourceTree = "<group>"; };
+		04BA28BD21EC3D6700E4563A /* PictureFoureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureFoureCell.h; sourceTree = "<group>"; };
+		04BA28BE21EC3D6700E4563A /* PictureFoureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureFoureCell.m; sourceTree = "<group>"; };
+		04BA28C021EC3E8F00E4563A /* PictureTwoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureTwoModel.h; sourceTree = "<group>"; };
+		04BA28C121EC3E8F00E4563A /* PictureTwoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureTwoModel.m; sourceTree = "<group>"; };
 		04C6621721E89EE600D046A9 /* AppDelegate+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Configure.m"; sourceTree = "<group>"; };
 		04C6621821E89EE600D046A9 /* AppDelegate+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Configure.h"; sourceTree = "<group>"; };
 		04C6621A21E89F3000D046A9 /* BPHomepageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHomepageViewModel.h; sourceTree = "<group>"; };
@@ -454,6 +466,12 @@
 			children = (
 				04BA28A521EC351000E4563A /* PictureCell.h */,
 				04BA28A621EC351000E4563A /* PictureCell.m */,
+				04BA28B721EC3D4A00E4563A /* PictureTwoCell.h */,
+				04BA28B821EC3D4A00E4563A /* PictureTwoCell.m */,
+				04BA28BA21EC3D5800E4563A /* PictureThreeCell.h */,
+				04BA28BB21EC3D5800E4563A /* PictureThreeCell.m */,
+				04BA28BD21EC3D6700E4563A /* PictureFoureCell.h */,
+				04BA28BE21EC3D6700E4563A /* PictureFoureCell.m */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -782,6 +800,8 @@
 			children = (
 				04BA28A821EC36FD00E4563A /* PictureModel.h */,
 				04BA28A921EC36FD00E4563A /* PictureModel.m */,
+				04BA28C021EC3E8F00E4563A /* PictureTwoModel.h */,
+				04BA28C121EC3E8F00E4563A /* PictureTwoModel.m */,
 			);
 			name = ShowModel;
 			sourceTree = "<group>";
@@ -1147,6 +1167,7 @@
 				04C6654E21E8FFC500D046A9 /* AlertView.m in Sources */,
 				04C6653021E8FFC500D046A9 /* BaseViewModel.m in Sources */,
 				04C6652621E8FFC500D046A9 /* MRCViewModelServicesImpl.m in Sources */,
+				04BA28B921EC3D4A00E4563A /* PictureTwoCell.m in Sources */,
 				04F06AED21E89D06006B47FE /* NSDictionary+model.m in Sources */,
 				04F06ACF21E89BDC006B47FE /* XZRacsignHttpTool.m in Sources */,
 				04C6652F21E8FFC500D046A9 /* BaseTableViewViewModel.m in Sources */,
@@ -1158,8 +1179,10 @@
 				04C6654B21E8FFC500D046A9 /* CustomBtn.m in Sources */,
 				04BA28AA21EC36FD00E4563A /* PictureModel.m in Sources */,
 				04C6654A21E8FFC500D046A9 /* TimeTool.m in Sources */,
+				04BA28BC21EC3D5800E4563A /* PictureThreeCell.m in Sources */,
 				04F06AD121E89BDC006B47FE /* XZProcessFilter.m in Sources */,
 				04C6654121E8FFC500D046A9 /* WebVC.m in Sources */,
+				04BA28BF21EC3D6700E4563A /* PictureFoureCell.m in Sources */,
 				04C6654D21E8FFC500D046A9 /* ToolWithOther.m in Sources */,
 				04F06AE721E89D06006B47FE /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				04C6652921E8FFC500D046A9 /* XZmytabbar.m in Sources */,
@@ -1186,6 +1209,7 @@
 				04C6652A21E8FFC500D046A9 /* MRCNavigationControllerStack.m in Sources */,
 				04C6622E21E8CA4800D046A9 /* TwoVC.m in Sources */,
 				04BA28B321EC39AB00E4563A /* RequestPageDataVM.m in Sources */,
+				04BA28C221EC3E8F00E4563A /* PictureTwoModel.m in Sources */,
 				04C6622521E8CA1700D046A9 /* HomeVM.m in Sources */,
 				04C6653B21E8FFC500D046A9 /* NSString+EmailAdditions.m in Sources */,
 				04F4ADED21E9D6D4007BDC06 /* GetRandomImageClient.m in Sources */,
