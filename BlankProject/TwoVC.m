@@ -7,31 +7,81 @@
 //
 
 #import "TwoVC.h"
+#import "TwoVM.h"
 
 @interface TwoVC ()
+
+@property (nonatomic, strong) TwoVM *viewModel;
+
+@property (nonatomic, strong) UIButton *oneBtn;
+@property (nonatomic, strong) UIButton *twoBtn;
 
 @end
 
 @implementation TwoVC
+@dynamic viewModel;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self.view addSubview:self.oneBtn];
+    [self.view addSubview:self.twoBtn];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.leftBtn.hidden = YES;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)layPageSubViews {
+    
+    self.oneBtn.sd_layout
+    .centerXEqualToView(self.view)
+    .topSpaceToView(self.view, 30)
+    .widthIs(200)
+    .heightIs(44);
+    
+    self.twoBtn.sd_layout
+    .centerXEqualToView(self.view)
+    .topSpaceToView(self.oneBtn, 30)
+    .widthIs(150)
+    .heightIs(44);
 }
-*/
+
+
+#pragma mark  - getter and setter
+
+- (UIButton *)oneBtn {
+    if (_oneBtn == nil) {
+        _oneBtn = [UIButton btnWithNormaLTitle:@"多种类Cell布局TableView"
+                               normalTitleColor:ColorTitle
+                                      backImage:[UIImage imageWithColor:ColorLightLine]
+                                      titleFont:BaseTitleFont];
+        
+        _oneBtn.layer.cornerRadius = XZLittleSpace;
+        _oneBtn.layer.borderColor = ColorGray.CGColor;
+        _oneBtn.layer.borderWidth = 1.0f;
+        _oneBtn.layer.masksToBounds = YES;
+    }
+    return _oneBtn;
+}
+
+- (UIButton *)twoBtn {
+    if (_twoBtn == nil) {
+        _twoBtn = [UIButton btnWithNormaLTitle:@"分页请求网络数据"
+                              normalTitleColor:ColorTitle
+                                     backImage:[UIImage imageWithColor:ColorLightLine]
+                                     titleFont:BaseTitleFont];
+        
+        _twoBtn.layer.cornerRadius = XZLittleSpace;
+        _twoBtn.layer.borderColor = ColorGray.CGColor;
+        _twoBtn.layer.borderWidth = 1.0f;
+        _twoBtn.layer.masksToBounds = YES;
+    }
+    return _twoBtn;
+}
+
 
 @end

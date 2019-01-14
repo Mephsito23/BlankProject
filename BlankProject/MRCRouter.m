@@ -44,6 +44,8 @@
              @"ThreeVM" : @"ThreeVC",
              @"PushVM" : @"PushVC",
              @"PresentVM" : @"PresentVC",
+             @"ManyCellVM" : @"ManyCellVC",
+             @"RequestPageDataVM" : @"RequestPageDataVC",
              };
     
 }

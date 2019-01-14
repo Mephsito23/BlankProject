@@ -10,4 +10,7 @@
 
 @interface TwoVM : BaseViewModel
 
+@property (nonatomic, strong) RACCommand *pushOneVcCommon;
+@property (nonatomic, strong) RACCommand *pushTwoVcCommon;
+
 @end
