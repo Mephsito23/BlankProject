@@ -15,11 +15,6 @@
 
 static void (^doNext)(id responseObject)=^(id responseObject){
     
-    NSNumber *code = responseObject[@"code"];
-    if([code isEqual:@(2)]) {
-        
-    }
-
 };
 
 static void (^doError)(NSError * _Nonnull error)=^(NSError * _Nonnull error){
