@@ -108,7 +108,7 @@ if (_##variable == nil) {  \
 _##variable = [UIImageView new];  \
 _##variable.contentMode = UIViewContentModeScaleAspectFill;  \
 _##variable.layer.masksToBounds = YES; \
-_##variable.image=[UIImage imageNamed:ImageNameStr]; \
+if ([ImageNameStr isNotBlank]) _##variable.image=[UIImage imageNamed:ImageNameStr]; \
 }  \
 return _##variable;  \
 }
@@ -121,7 +121,7 @@ _##variable = [UIImageView new];  \
 _##variable.contentMode = UIViewContentModeScaleAspectFill;  \
 _##variable.layer.cornerRadius=(Radius); \
 _##variable.layer.masksToBounds = YES; \
-_##variable.image=[UIImage imageNamed:ImageNameStr]; \
+if ([ImageNameStr isNotBlank]) _##variable.image=[UIImage imageNamed:ImageNameStr]; \
 }  \
 return _##variable;  \
 }

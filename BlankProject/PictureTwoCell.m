@@ -85,6 +85,7 @@
     .rightEqualToView(self.contentView)
     .bottomEqualToView(self.contentView)
     .heightIs(1);
+    
 }
 
 #pragma mark  - getter and setter

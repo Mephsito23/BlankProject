@@ -86,6 +86,13 @@
     .topEqualToView(self.titleL)
     .heightRatioToView(self.contentView, 0.8)
     .widthEqualToHeight();
+    
+    self.lineV.sd_layout
+    .leftEqualToView(self.contentView)
+    .rightEqualToView(self.contentView)
+    .bottomEqualToView(self.contentView)
+    .heightIs(1);
+    
 }
 
 #pragma mark  - getter and setter
@@ -98,7 +105,7 @@ LazyLoadImageView(iconV, @"");
 - (UIView *)lineV{
     if (_lineV == nil) {
         _lineV = [UIView new];
-        _lineV.backgroundColor = ColorLine;
+        _lineV.backgroundColor = ColorLightLine;
     }
     return _lineV;
 }

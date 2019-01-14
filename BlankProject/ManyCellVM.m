@@ -9,6 +9,7 @@
 #import "ManyCellVM.h"
 #import "PictureModel.h"
 #import "PictureTwoModel.h"
+#import "PictureThreeModel.h"
 
 
 @interface ManyCellVM ()
@@ -26,7 +27,7 @@
     ///=======================
     ///在该数组中声明要注册的 Cell
     ///=======================
-    self.cellIdentifier = @[@"PictureCell", @"PictureTwoCell"];
+    self.cellIdentifier = @[@"PictureCell", @"PictureTwoCell", @"PictureThreeCell"];
     
     [self configModelArr];
 }
@@ -46,21 +47,26 @@
 - (void)configModelArr {
     
     NSMutableArray *modelArr = [NSMutableArray array];
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 300; i++) {
         
-        if (i % 2 == 0) {
-            PictureModel *model = [PictureModel new];
-            model.index = @(i).stringValue;
-            [modelArr addObject:model];
-            continue;
-        }
-        
+
         if (i % 3 == 0) {
             PictureTwoModel *model = [PictureTwoModel new];
             model.index = @(i).stringValue;
             [modelArr addObject:model];
             continue;
         }
+        
+        if (i % 5 == 0) {
+            PictureThreeModel *model = [PictureThreeModel new];
+            model.index = @(i).stringValue;
+            [modelArr addObject:model];
+            continue;
+        }
+        
+        PictureModel *model = [PictureModel new];
+        model.index = @(i).stringValue;
+        [modelArr addObject:model];
     }
     
     ///=============================

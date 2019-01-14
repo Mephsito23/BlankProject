@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PictureThreeCell : UITableViewCell
+@interface PictureThreeCell : UITableViewCell<BindViewModelProtocol>
 
 @end
