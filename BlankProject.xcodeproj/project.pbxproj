@@ -579,20 +579,12 @@
 		04C664E621E8FFC400D046A9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				04C664E721E8FFC400D046A9 /* Category */,
 				04C664F221E8FFC400D046A9 /* instrument */,
 				04C664FD21E8FFC400D046A9 /* Web */,
 				04C6650421E8FFC500D046A9 /* baseThird */,
 				04C6651921E8FFC500D046A9 /* SelfTool */,
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		04C664E721E8FFC400D046A9 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		04C664F221E8FFC400D046A9 /* instrument */ = {
