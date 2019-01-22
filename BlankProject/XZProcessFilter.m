@@ -8,7 +8,6 @@
 
 #import <LCNetwork/LCBaseRequest.h>
 #import "XZProcessFilter.h"
-#import "NSString+PingYing.h"
 
 
 @interface XZProcessFilter ()

@@ -14,10 +14,5 @@
 
 - (NSString *)getPingYing;
 
-- (NSString *)encodeBySign;
-
-+ (NSString *)subTextWith:(NSString *)str;
-
-- (NSString *)disable_EmojiString;
 
 @end

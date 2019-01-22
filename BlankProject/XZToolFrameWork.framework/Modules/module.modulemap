@@ -1,0 +1,6 @@
+framework module XZToolFrameWork {
+  umbrella header "XZToolFrameWork.h"
+
+  export *
+  module * { export * }
+}

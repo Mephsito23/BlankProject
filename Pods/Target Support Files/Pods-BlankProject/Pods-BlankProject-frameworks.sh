@@ -169,7 +169,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XZCategoryTool/XZCategoryTool.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YTKKeyValueStore/YTKKeyValueStore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
 fi
@@ -190,7 +189,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XZCategoryTool/XZCategoryTool.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YTKKeyValueStore/YTKKeyValueStore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework"
 fi

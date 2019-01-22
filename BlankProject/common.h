@@ -33,26 +33,15 @@
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <KafkaRefresh/KafkaRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <XZToolFrameWork/XZToolFrameWork.h>
 
 
 ///------
 ///工具
 ///------
-#import "TimeTool.h"
-#import "CreatViewTool.h"
-#import "ToolWithOther.h"
 #import "singlon.h"
-#import "NSObject+SXRuntime.h"
-#import <XZCategoryTool/XZCategoryTool.h>
-#import "NSMutableArray+JsonArray.h"
 #import "XZRacsignHttpTool.h"
-#import "NSDictionary+model.h"
-#import "NSArray+ImageStrToImageArr.h"
 #import "Enum.h"
-#import "ToolFounction.h"
-#import "UIButton+UIControl_button.h"
-#import "NSDate+Compare.h"
-#import "NSString+Extension.h"
 
 
 #endif /* common_h */

@@ -1,6 +1,0 @@
-framework module XZCategoryTool {
-  umbrella header "XZCategoryTool-umbrella.h"
-
-  export *
-  module * { export * }
-}

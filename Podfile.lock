@@ -76,7 +76,6 @@ PODS:
   - SDWebImage/Core (4.4.3)
   - SVProgressHUD (2.2.5)
   - TZImagePickerController (3.1.7)
-  - XZCategoryTool (0.0.4)
   - YTKKeyValueStore (0.1.2):
     - FMDB (~> 2.0)
   - YYKit (1.0.9):
@@ -97,7 +96,6 @@ DEPENDENCIES:
   - SDWebImage
   - SVProgressHUD
   - TZImagePickerController
-  - XZCategoryTool (~> 0.0.4)
   - YTKKeyValueStore
   - YYKit
 
@@ -119,7 +117,6 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - TZImagePickerController
-    - XZCategoryTool
     - YTKKeyValueStore
     - YYKit
 
@@ -140,10 +137,9 @@ SPEC CHECKSUMS:
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: 3027e1e2029c830186c6a167c88c933b8556fdc7
-  XZCategoryTool: 84d6dfb46bcbceadac8430f14bdd42e388bc9695
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 4fd72f6430b2b7106ab96f338fe48cccf41c7fdd
+PODFILE CHECKSUM: 5f42d5b9d3d6cd8991bbc84a3faecfd58e697e5f
 
 COCOAPODS: 1.6.0.beta.2

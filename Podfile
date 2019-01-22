@@ -15,7 +15,6 @@ pod 'YTKKeyValueStore' #键值存储
 pod 'LCNetwork' #网络框架
 pod 'KafkaRefresh' #新版上拉刷新
 pod 'CocoaLumberjack' #日志打印
-pod 'XZCategoryTool','~>0.0.4' #类扩展
 
 
 #非必须框架
