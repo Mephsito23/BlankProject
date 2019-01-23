@@ -13,6 +13,12 @@
 #ifndef Instrument_h
 #define Instrument_h
 
+///------------
+/// AppDelegate
+///------------
+#import "AppDelegate.h"
+#define BPSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
 ///---------
 /// App Info
 ///---------

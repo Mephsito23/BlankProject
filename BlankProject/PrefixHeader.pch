@@ -17,11 +17,6 @@
 #define LOG_LEVEL_DEF ddLogLevel
 #import "CocoaLumberjack/CocoaLumberjack.h"
 
-///------------
-/// AppDelegate
-///------------
-#import "AppDelegate.h"
-#define BPSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
 #import "common.h"
 #import "constant.h"
