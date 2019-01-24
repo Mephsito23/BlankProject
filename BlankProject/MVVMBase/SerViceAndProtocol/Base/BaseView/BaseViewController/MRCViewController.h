@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
-//#import "BaseViewModel.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
 
 @class BaseViewModel;
 @interface MRCViewController : UIViewController

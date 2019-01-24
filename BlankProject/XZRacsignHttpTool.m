@@ -8,7 +8,7 @@
 
 #import "XZRacsignHttpTool.h"
 #import "RestfulRacsignHttpTool.h"
-#import <LCNetwork/LCNetwork.h>
+#import "LCNetwork.h"
 
 
 @implementation XZRacsignHttpTool

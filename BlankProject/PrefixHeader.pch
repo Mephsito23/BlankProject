@@ -14,8 +14,6 @@
 ///------------
 
 
-#define LOG_LEVEL_DEF ddLogLevel
-#import "CocoaLumberjack/CocoaLumberjack.h"
 
 
 #import "common.h"
@@ -24,6 +22,8 @@
 #import "Instrument.h"
 #import "interface.h"
 
+#define LOG_LEVEL_DEF ddLogLevel
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #ifdef DEBUG
 static const DDLogLevel ddLogLevel = DDLogLevelDebug;

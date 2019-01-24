@@ -6,7 +6,7 @@
 //  Copyright © 2019年 Mephsito. All rights reserved.
 //
 
-#import <LCNetwork/LCNetwork.h>
+#import "LCNetwork.h"
 
 @interface GetPictureClient : LCBaseRequest<LCAPIRequest,YYModel>
 

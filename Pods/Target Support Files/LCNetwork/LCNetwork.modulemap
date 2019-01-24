@@ -1,6 +1,0 @@
-framework module LCNetwork {
-  umbrella header "LCNetwork-umbrella.h"
-
-  export *
-  module * { export * }
-}

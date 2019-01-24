@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <LCNetwork/LCNetworkConfig.h>
+#import "LCNetworkConfig.h"
 
 
 @interface XZProcessFilter : NSObject <LCProcessProtocol>

@@ -33,12 +33,12 @@
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <KafkaRefresh/KafkaRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
-#import <XZToolFrameWork/XZToolFrameWork.h>
 
 
 ///------
 ///工具
 ///------
+#import "XZToolFrameWork.h"
 #import "singlon.h"
 #import "XZRacsignHttpTool.h"
 #import "Enum.h"

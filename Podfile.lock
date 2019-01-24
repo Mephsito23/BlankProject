@@ -1,34 +1,10 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - ChameleonFramework (2.1.0):
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
-  - CocoaLumberjack (3.4.2):
-    - CocoaLumberjack/Default (= 3.4.2)
-    - CocoaLumberjack/Extensions (= 3.4.2)
-  - CocoaLumberjack/Default (3.4.2)
-  - CocoaLumberjack/Extensions (3.4.2):
-    - CocoaLumberjack/Default
-  - DZNEmptyDataSet (1.8.1)
-  - FDFullscreenPopGesture (1.1)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - IQKeyboardManager (6.2.0)
   - KafkaRefresh (1.3.0):
     - KafkaRefresh/Category (= 1.3.0)
     - KafkaRefresh/Configuration (= 1.3.0)
@@ -64,82 +40,39 @@ PODS:
   - KafkaRefresh/UIKit/LayerKit (1.3.0):
     - KafkaRefresh/Category
     - KafkaRefresh/Default
-  - LCNetwork (1.5.0):
-    - AFNetworking
   - PGDatePicker (2.6.7):
     - PGPickerView
   - PGPickerView (1.3.8)
-  - ReactiveObjC (3.1.0)
   - SDAutoLayout (2.2.1)
-  - SDWebImage (4.4.3):
-    - SDWebImage/Core (= 4.4.3)
-  - SDWebImage/Core (4.4.3)
-  - SVProgressHUD (2.2.5)
-  - TZImagePickerController (3.1.7)
   - YTKKeyValueStore (0.1.2):
     - FMDB (~> 2.0)
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - ChameleonFramework
-  - CocoaLumberjack
-  - DZNEmptyDataSet
-  - FDFullscreenPopGesture (= 1.1)
-  - IQKeyboardManager
   - KafkaRefresh
-  - LCNetwork
   - PGDatePicker
-  - ReactiveObjC
   - SDAutoLayout
-  - SDWebImage
-  - SVProgressHUD
-  - TZImagePickerController
   - YTKKeyValueStore
-  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFNetworking
     - ChameleonFramework
-    - CocoaLumberjack
-    - DZNEmptyDataSet
-    - FDFullscreenPopGesture
     - FMDB
-    - IQKeyboardManager
     - KafkaRefresh
-    - LCNetwork
     - PGDatePicker
     - PGPickerView
-    - ReactiveObjC
     - SDAutoLayout
-    - SDWebImage
-    - SVProgressHUD
-    - TZImagePickerController
     - YTKKeyValueStore
-    - YYKit
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   KafkaRefresh: 49c022888ee6444461f8c9599567e2b7dbc23f4d
-  LCNetwork: 746a151ffc946ed75aac0029019fab6516cc228e
   PGDatePicker: 2800906f7e3b66bb324aeb2a754065c563651e22
   PGPickerView: 037acfb132a4c8054fb43aaa59a5ff50c7f747f5
-  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
-  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TZImagePickerController: 3027e1e2029c830186c6a167c88c933b8556fdc7
   YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 5f42d5b9d3d6cd8991bbc84a3faecfd58e697e5f
+PODFILE CHECKSUM: a4e82f84157118626870be393038cf5b6beb48a2
 
 COCOAPODS: 1.6.0.beta.2

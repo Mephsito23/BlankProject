@@ -1,0 +1,9 @@
+github "ReactiveCocoa/ReactiveObjC" >= 2.5
+github "AFNetworking/AFNetworking" ~> 3.0
+github "hackiftekhar/IQKeyboardManager"
+github "SDWebImage/SDWebImage"
+github "CocoaLumberjack/CocoaLumberjack"
+github "dzenbot/DZNEmptyDataSet"
+github "ibireme/YYKit"
+github "SVProgressHUD/SVProgressHUD"
+github "banchichen/TZImagePickerController"

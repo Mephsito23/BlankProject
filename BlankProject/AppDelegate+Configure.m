@@ -6,8 +6,7 @@
 //  Copyright © 2018年 Mephsito. All rights reserved.
 //
 
-#import <LCNetwork/LCNetworkConfig.h>
-
+#import "LCNetworkConfig.h"
 #import "AppDelegate+Configure.h"
 #import "HQLCustomFormatter.h"
 #import "XZProcessFilter.h"

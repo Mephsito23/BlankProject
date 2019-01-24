@@ -1,25 +1,14 @@
 target 'BlankProject' do
 platform :ios,'9.0'
 
-# 必须框架
-pod 'ReactiveObjC'
-pod 'DZNEmptyDataSet'
-pod 'SVProgressHUD' #遮罩框架
-pod 'FDFullscreenPopGesture', '1.1' #侧滑
-pod 'IQKeyboardManager'
-pod 'SDWebImage' #图片下载
-pod 'YYKit'
-pod 'ChameleonFramework'#颜色扩展
-pod 'SDAutoLayout'
-pod 'YTKKeyValueStore' #键值存储
-pod 'LCNetwork' #网络框架
-pod 'KafkaRefresh' #新版上拉刷新
-pod 'CocoaLumberjack' #日志打印
 
+pod 'ChameleonFramework'#颜色扩展
+pod 'YTKKeyValueStore' #键值存储
+pod 'KafkaRefresh' #新版上拉刷新
+pod 'SDAutoLayout'
+pod 'PGDatePicker' #时间选择器
 
 #非必须框架
-pod 'PGDatePicker' #时间选择器
-pod 'TZImagePickerController'
 #pod 'NinaPagerView' #多控制器导航栏
 #pod 'TWMessageBarManager'
 #pod 'BJNumberPlateOC' #车牌键盘

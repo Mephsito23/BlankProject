@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Mephsito. All rights reserved.
 //
 
-#import <LCNetwork/LCBaseRequest.h>
+#import "LCBaseRequest.h"
 #import "XZProcessFilter.h"
 
 
